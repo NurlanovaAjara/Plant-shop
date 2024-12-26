@@ -93,7 +93,7 @@ section {
   font-size: 24px;
   font-weight: 500;
   line-height: 29px;
-  margin-right: 75px;
+  margin-right: 70px;
   margin-left: 30px;
 }
 .ic-arrow {
@@ -102,17 +102,17 @@ section {
   width: 22px;
   height: 19px;
   color: rgb(117, 116, 116);
-  background-size: contain;
+  
 }
 .ic-arrow-right {
   background: url(../images/arrow-right.svg) no-repeat center;
   display: block;
   width: 22px;
   height: 19px;
-  color: gray;
+  color: rgb(117, 116, 116);
   margin-right: 150px;
-  background-size: contain;
 }
+  
 .kaktus {
   margin-left: 720px;
   margin-top: 120px;
