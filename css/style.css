@@ -46,7 +46,7 @@ section {
   align-items: flex-start;
 }  */
 
-.header_right {
+.header-right {
   display: flex;
   height: 36px;
   width: 1168px;
@@ -57,14 +57,14 @@ section {
   margin-top: 10px;
   padding-left: 20px;
 }
-.menu_logo {
+.menu-logo {
   margin-left: 40px;
 }
-.header_text {
+.header-text {
   margin-left: 700px;
   margin-top: 110px;
 }
-.sec_head {
+.sec-head {
   width: 500px;
   height: 166px;
   flex-direction: column;
@@ -77,7 +77,7 @@ section {
   line-height: 83px;
   text-align: left;
 }
-.head_txt {
+.head-txt {
   width: 493px;
   height: 96px;
   color: gray;
@@ -88,7 +88,7 @@ section {
   text-align: left;
 }
 
-.prev_txt {
+.prev-txt {
   color: gray;
   font-size: 24px;
   font-weight: 500;
@@ -96,20 +96,22 @@ section {
   margin-right: 75px;
   margin-left: 30px;
 }
-.ic_arrow {
+.ic-arrow {
   background: url(../images/arrow-left.svg) no-repeat center;
   display: block;
   width: 22px;
   height: 19px;
   color: rgb(117, 116, 116);
+  background-size: contain;
 }
-.ic_arrow_right {
+.ic-arrow-right {
   background: url(../images/arrow-right.svg) no-repeat center;
   display: block;
   width: 22px;
   height: 19px;
   color: gray;
-  margin-right: 140px;
+  margin-right: 150px;
+  background-size: contain;
 }
 .kaktus {
   margin-left: 720px;
@@ -126,7 +128,7 @@ section {
   line-height: 39px;
   margin-top: 20px;
 }
-.plant_right {
+.plant-right {
   color: rgb(255, 255, 255);
   font-size: 32px;
   font-weight: 500;
@@ -134,7 +136,7 @@ section {
   margin-top: 20px;
   margin-left: 30px;
 }
-.previous_blue {
+.previous-blue {
   width: 320px;
   height: 150px;
   background-color: rgb(21, 105, 99);
@@ -142,13 +144,14 @@ section {
 .arrows {
   margin-top: 30px;
 }
-
-.arrows_right {
+.arrows-right {
   margin-top: 30px;
 }
 
 /* sec delivery */
 .cards-del {
+  width: 1168px;
+  margin: 0 auto;
   margin-top: 850px;
 }
 .ic2 {
@@ -156,4 +159,318 @@ section {
   display: block;
   width: 42px;
   height: 48px;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-size: contain;
+}
+.ic1 {
+  background: url(../images/fast.svg) no-repeat center;
+  display: block;
+  width: 42px;
+  height: 48px;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-size: contain;
+}
+
+.ic3 {
+  background: url(../images/plant.svg) no-repeat center;
+  display: block;
+  width: 42px;
+  height: 48px;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-size: contain;
+}
+
+.ic4 {
+  background: url(../images/dollar-symbol.svg) no-repeat center;
+  display: block;
+  width: 42px;
+  height: 48px;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-size: contain;
+}
+.card-del {
+  width: 268px;
+  height: 155px;
+  border: 1px solid rgb(224, 224, 224);
+  box-sizing: border-box;
+  background: rgb(255, 255, 255);
+  color: rgb(224, 224, 224);
+}
+.title {
+  color: rgb(21, 105, 99);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 47px;
+}
+.text-del {
+  position: absolute;
+  width: 220px;
+  height: 45px;
+  color: gray;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.button-icon {
+  background: url(../images/btn.svg) no-repeat center;
+  display: block;
+  width: 6px;
+  height: 3px;
+  width: 12px;
+  height: 12px;
+}
+.card-button {
+  width: 130px;
+  height: 31px;
+  align-items: flex-start;
+  gap: 10;
+  padding: 8px 12px 8px 12px;
+  box-sizing: border-box;
+  border: 1px solid rgb(224, 224, 224);
+  background: rgb(255, 255, 255);
+  margin-left: 860px;
+}
+.cards {
+  width: 1168px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.card-tit {
+  width: 162px;
+  height: 24px;
+  color: rgb(42, 41, 41);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-top: 10px;
+}
+.button-txt {
+  color: rgb(42, 41, 41);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  width: 82px;
+  height: 15px;
+  margin-right: 10px;
+}
+.solid {
+  margin: 0 auto;
+  width: 1160px;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+  margin-top: 30px;
+  margin-left: -12px;
+  margin-bottom: 10px;
+}
+
+.plant-txt {
+  width: 139px;
+  height: 20px;
+  color: rgb(45, 45, 45);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.plant-price {
+  color: rgb(43, 43, 43);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0 auto;
+  width: 139px;
+  margin-left: 55px;
+}
+.plants {
+  max-width: 1168px;
+  margin: 0 auto;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+.relation {
+  margin-top: 250px;
+}
+.relation-page {
+  width: 1168px;
+  margin: 0 auto;
+}
+.page {
+  width: 513px;
+  height: 769px;
+  margin-top: 20px;
+}
+
+.relation-tit {
+  color: rgb(44, 21, 0);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+}
+.txt {
+  color: gray;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 25px;
+}
+.liana {
+  width: 568px;
+  height: 250px;
+  margin-top: 70px;
+}
+.liana-img {
+  position: absolute;
+  width: 568px;
+  height: 250px;
+  margin-top: 60px;
+}
+.jason-img {
+  width: 513px;
+  height: 650px;
+}
+
+.grey-shop {
+  width: 1168px;
+  height: 360px;
+  background: rgb(243, 244, 246);
+  margin: 0 auto;
+  margin-top: -120px;
+}
+.grey-tit {
+  color: rgb(43, 24, 7);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  position: static;
+  width: 585px;
+  height: 112px;
+  gap: 16;
+  margin: 88px 97px 32px;
+}
+.grey-btn {
+  width: 152px;
+  height: 40px;
+  align-items: center;
+  padding: 10px 20px 10px 20px;
+  box-sizing: border-box;
+  border: 1px solid rgb(21, 105, 99);
+  background: rgb(21, 105, 99);
+  margin-left: 97px;
+  color: rgb(250, 254, 254);
+  font-family: "Nunito" "Sans serif";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.grey-img {
+  width: 400px;
+  height: 360px;
+  margin-right: 70px;
+}
+
+.footer-plant {
+  width: 946px;
+  height: 137px;
+  gap: 80;
+  margin: 0 auto;
+}
+.planktu {
+  width: 112px;
+  height: 24px;
+}
+.first-tit {
+  width: 130px;
+  height: 19px;
+  color: rgb(51, 51, 51);
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 24px;
+}
+
+.first-txt {
+  width: 282px;
+  height: 60px;
+  color: rgb(79, 79, 79);
+  font-family: "Work Sans" sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 10px;
+}
+.second-tit {
+  width: 130px;
+  height: 19px;
+  color: rgb(51, 51, 51);
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.second-txt {
+  color: rgb(33, 33, 33);
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  padding-top: 15px;
+}
+.fourth-tit {
+  color: rgb(51, 51, 51);
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  width: 210px;
+  height: 16px;
+}
+.footer-input {
+  width: 234px;
+  height: 32px;
+  box-sizing: border-box;
+  border: 1px solid rgb(242, 242, 242);
+  border-radius: 2px;
+  margin-top: 20px;
+  color: rgb(51, 51, 51);
+  font-family: "Work Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+}
+.footer-btn {
+  border-radius: 2px;
+  backdrop-filter: blur(10px);
+  background: rgb(21, 105, 99);
+  padding: 4px 14px;
+  border: none;
+  display: flex;
+  margin-top: 20px;
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.btn-txt {
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-family: "Raleway", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 14px;
 }
